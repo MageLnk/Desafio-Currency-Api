@@ -15,8 +15,26 @@
   </head>
   <body>
     <div class="main-container">
-      <h1>Conversor de monedas Nacional</h1>
+      <h1 class="title">Conversor de monedas Nacional</h1>
 
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h2 class="card-title">Pesos CLP</h2>
+          <input style="text-align: center; border-radius: 10px;" placeholder="Ingrese el monto en CLP" />
+          <span class="sub-title">Moneda a convertir:</span>
+          <div class="dropdown-container">
+              <select class="select-currency" id="input-currency">
+                <option selected>Selecione moneda</option>
+                <option id="Id1">Option 1</option>
+                <option id="Id2">Option 2</option>
+                <option id="Id3">Option 3</option>
+                <option id="Id4">Option 4</option>
+              </select>
+          </div>
+          <button type="button" class="btn btn-primary search-button">Buscar</button>
+          <p>...</p>
+        </div>
+      </div>
       
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
