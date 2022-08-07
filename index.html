@@ -20,7 +20,7 @@
       <div class="card" style="width: 18rem;">
         <div class="card-body">
           <h2 class="card-title">Pesos CLP</h2>
-          <input style="text-align: center; border-radius: 10px; padding: 0.4rem;" placeholder="Ingrese el monto en CLP" />
+          <input id="clp-value" style="text-align: center; border-radius: 10px; padding: 0.4rem;" placeholder="Ingrese el monto en CLP" />
           <span class="sub-title">Moneda a convertir:</span>
           <div class="dropdown-container" id="all-options-container">
               <select class="select-currency" id="input-currency">
@@ -29,8 +29,8 @@
                 <option id="Bitcoin">Bitcoin</option>
               </select>
           </div>
-          <button type="button" class="btn btn-primary search-button">Buscar</button>
-          <p>...</p>
+          <button onclick="resultsOnCLP()" type="button" class="btn btn-primary search-button">Calcular</button>
+          <p id="total-on-clp"></p>
         </div>
       </div>
       
