@@ -50,7 +50,6 @@ const handleGraphic = (dataGraphic, selectedCurrency) => {
 const selectedCurrency = (option) => {
   moneyValue = 0;
   document.querySelector("#total-on-clp").innerHTML = "";
-  //document.querySelector("#myChart").innerHTML = "";
   if (option === "Euro" || option == "Bitcoin") {
     const filterValue = Object.values(allData).filter((e) => {
       return e.nombre === option;
