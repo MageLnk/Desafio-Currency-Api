@@ -89,3 +89,7 @@ window.addEventListener("change", () => {
   const selectedValue = document.querySelector("#input-currency").value;
   selectedCurrency(selectedValue);
 });
+
+const algo = () => {
+  console.log(`Esto es un test`)
+}
